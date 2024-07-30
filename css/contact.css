@@ -1,0 +1,31 @@
+.contact-content {
+    height: 395px;
+    /* background-color: bisque; */
+    display: flex;
+    margin-top: 30px;
+    background-image: url("../img/17.png")
+    
+}
+.contact-content-left {
+    font-family: var(--font1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.contact-content-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.contact-content-right img {
+    height: 280px;
+    border-radius: 200px;
+}
